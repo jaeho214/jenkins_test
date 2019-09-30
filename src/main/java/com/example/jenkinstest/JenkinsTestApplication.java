@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JenkinsTestApplication {
 
     public static void main(String[] args) {
+        Test test = new Test();
+        test.test();
         SpringApplication.run(JenkinsTestApplication.class, args);
     }
 
